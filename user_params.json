@@ -1,0 +1,30 @@
+{
+    "current_api_type": "ModelScope",
+    "api_configs": {
+        "Ollama": {
+            "api_url": "http://localhost:11434/api/generate",
+            "api_key": "",
+            "model_name": "qwen2.5:7b",
+            "api_format": null,
+            "custom_headers": null
+        },
+        "SiliconFlow": {
+            "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+            "api_key": "sk-*******",
+            "model_name": "Qwen/Qwen3-8B",
+            "api_format": null,
+            "custom_headers": null
+        },
+        "ModelScope": {
+            "api_url": "https://api-inference.modelscope.cn/v1/chat/completions",
+            "api_key": "ms-*******",
+            "model_name": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+            "api_format": null,
+            "custom_headers": null
+        }
+    },
+    "min_chapter_length": 3500,
+    "max_chapter_length": 5000,
+    "save_path": "zhangjie",
+    "file_behavior": "覆盖"
+}
