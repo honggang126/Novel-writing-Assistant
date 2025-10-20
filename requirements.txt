@@ -1,0 +1,14 @@
+# 小说写作软件 - 依赖模块列表
+# 安装命令：pip install -r requirements.txt
+
+# 核心GUI框架
+PyQt5>=5.15.0
+
+# HTTP请求库
+requests>=2.25.0
+
+# JSON处理增强
+json5>=0.9.0
+
+# 标准库模块（通常Python自带，无需额外安装）
+# sys, os, json, hashlib, random, re, threading, time, datetime

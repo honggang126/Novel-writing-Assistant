@@ -1,0 +1,49 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 构建和打包文件
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 用户生成的内容和数据
+zhangjie/
+outlines/
+novels/
+拆书结果/
+
+# 用户配置文件
+user_params.json
+novel_params.json
+
+# 临时文件
+*.tmp
+*.temp
+temp_*
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 可执行文件（Windows）
+*.exe
+
+# 打包脚本（Windows特定）
+打包.bat
+
+# 测试和临时脚本
+test_first_chapter.py
+generate_chapter1.py
+clean_duplicate_files.py
